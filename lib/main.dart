@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
     } catch (error) {
       print('Error en la solicitud: $error');
     }
-    return nombre;
+    return nombre; 
   }
 
   Future<String> registrarSalida(codigoEmpleado) async {
